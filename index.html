@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="tracker">    
+  <div class="tracker__left animate__animated animate__zoomIn ">
+    <div class="profile">
+      <img src="images/image-jeremy.png" alt="profile picture" class="profileImage">
+      <div class="profile__info">
+        <p>Report for</p>
+        <h1 class="profile__user">Jeremy Robson</h1>
+      </div>
+      
+    </div>
+    <div class="tracker__left__options">
+      <ul class="">
+        <li><button class="option" id="daily">Daily</button></li>
+        <li><button class="option" id="weekly">Weekly</button></li>
+        <li><button class="option" id="monthly">Monthly</button></li>
+      </ul>
+    </div>
+  </div>
+<div class="tracker__right">
+ 
+  <div class="tracker__activities">
+   
+      <div class="activity work animate__animated animate__zoomIn">
+        <div class="activity__bg">
+          <img src="images/icon-work.svg" alt="">
+        </div>
+        <div class="activity__info">
+          <div class="activity__info__header">
+             <h2>Work</h2>
+             <img src="images/icon-ellipsis.svg" alt="more information"> 
+          </div>
+          <h3><span class="acitivity__duration">0</span>hrs</h3>
+          <p class="last">Select time tracking option</p>
+        </div>
+      </div>
+      <div class="activity play animate__animated animate__zoomIn ">
+        <div class="activity__bg">
+          <img src="images/icon-play.svg" alt="">
+        </div>
+        <div class="activity__info">
+          <div class="activity__info__header">
+             <h2>Play</h2>
+             <img src="images/icon-ellipsis.svg" alt="more information"> 
+          </div>
+          <h3><span class="acitivity__duration">0</span>hrs</h3>
+          <p class="last">Select time tracking option</p>
+        </div>
+      </div>
+      <div class="activity study  animate__animated animate__zoomIn">
+        <div class="activity__bg">
+          <img src="images/icon-study.svg" alt="">
+        </div>
+        <div class="activity__info">
+          <div class="activity__info__header">
+             <h2>Study</h2>
+             <img src="images/icon-ellipsis.svg" alt="more information"> 
+          </div>
+          <h3><span class="acitivity__duration">0</span>hrs</h3>
+          <p class="last">Select time tracking option</p>
+        </div>
+      </div>
+      <div class="activity exercise animate__animated animate__zoomIn">
+        <div class="activity__bg">
+          <img src="images/icon-exercise.svg" alt="">
+        </div>
+        <div class="activity__info">
+          <div class="activity__info__header">
+             <h2>Excercise</h2>
+             <img src="images/icon-ellipsis.svg" alt="more information"> 
+          </div>
+          <h3><span class="acitivity__duration">0</span>hrs</h3>
+          <p class="last">Select time tracking option</p>
+        </div>
+      </div>
+      <div class="activity social animate__animated animate__zoomIn">
+        <div class="activity__bg">
+          <img src="images/icon-social.svg" alt="">
+        </div>
+        <div class="activity__info">
+          <div class="activity__info__header">
+             <h2>Social</h2>
+             <img src="images/icon-ellipsis.svg" alt="more information"> 
+          </div>
+          <h3><span class="acitivity__duration">0</span>hrs</h3>
+          <p class="last">Select time tracking option</p>
+        </div>
+      </div>
+      <div class="activity self-care  animate__animated animate__zoomIn">
+        <div class="activity__bg">
+          <img src="images/icon-self-care.svg" alt="">
+        </div>
+        <div class="activity__info">
+          <div class="activity__info__header">
+             <h2>Self Care</h2>
+             <img src="images/icon-ellipsis.svg" alt="more information"> 
+          </div>
+          <h3><span class="acitivity__duration">0</span>hrs</h3>
+          <p class="last">Select time tracking option</p>
+        </div>
+      </div>
+  </div>
+</div>
+</main>
+ 
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">SG</a>.
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
