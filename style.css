@@ -218,7 +218,7 @@ footer{
         margin-top:0 ;
     }
     .profile{
-        padding-bottom: 2rem;
+        padding: 2rem 1rem 2rem;
     }
     .profile{
         flex-direction: row;
@@ -226,6 +226,6 @@ footer{
         align-items: center;
     }
     .profile .profile__info h1{
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 }
